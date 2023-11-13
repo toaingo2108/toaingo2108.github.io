@@ -26,17 +26,17 @@ const data = reactive([
   {
     icon: "mdi-calendar-account",
     title: "Birth date",
-    value: "22 February, 2001",
+    value: "21 August, 2001",
   },
   {
     icon: "mdi-city",
     title: "Birth place",
-    value: "Mykolaiv, Ukraine",
+    value: "Ho Chi Minh, Vietnam",
   },
   {
     icon: "mdi-compass-rose",
     title: "Location",
-    value: "Mykolaiv, Ukraine",
+    value: "Ho Chi Minh, Vietnam",
   },
 ]);
 </script>

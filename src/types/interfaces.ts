@@ -21,3 +21,13 @@ export interface SkillsData {
   options: Array<SkillOptions>;
   items: Array<SkillItemData>;
 }
+
+export interface TimelineItem {
+  id: number;
+  icon: string;
+  color: string;
+  title: string;
+  position: string;
+  period: string;
+  description: string;
+}

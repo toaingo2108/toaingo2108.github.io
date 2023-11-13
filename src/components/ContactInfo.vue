@@ -32,7 +32,7 @@ const data = reactive<Array<ContactInfoData>>([
     target: undefined,
   },
   {
-    icon: "mdi-message-text",
+    icon: "mdi-domain",
     title: "Upwork",
     value: "toaiq",
     href: "https://www.upwork.com/freelancers/toaiq",

@@ -34,54 +34,38 @@
 </template>
 
 <script setup lang="ts">
+import { TimelineItem } from "@/types/interfaces";
 import { reactive } from "vue";
 
-const timelines = reactive([
+const timelines = reactive<Array<TimelineItem>>([
   {
     id: 0,
     icon: "mdi-book-education",
     color: "cyan lighten-1",
-    title: "Petro Mohyla Black Sea National University",
+    title: "Ho Chi Minh University of Science",
     position: "Software Engineer",
-    period: "SEP 2018 — JUN 2022",
-    description: "Bachelor of Software Engineer",
+    period: "SEP 2017 — JUN 2021",
+    description: "Bachelor of Engineering",
   },
   {
     id: 1,
     icon: "mdi-briefcase-variant",
     color: "amber darken-1",
-    title: "FluidWeb",
-    position: "Trainee",
-    period: "JUN — AUG 2021",
-    description: "Build landing pages & make E2E testing with Cypress.js",
-  },
-  {
-    id: 2,
-    icon: "mdi-briefcase-variant",
-    color: "blue-darken-3",
-    title: "TrackEnsure",
-    position: "Data Specialist",
-    period: "AUG 2021 — MAY 2022",
-    description: "Monitoring logistical data",
-  },
-  {
-    id: 3,
-    icon: "mdi-briefcase-variant",
-    color: "blue-grey",
-    title: "Moonion",
-    position: "PHP Back-end developer",
-    period: "JUN — SEP 2022",
-    description: "API integration to e-commerce based on PHP yii2 framework",
+    title: "Buymed",
+    position: "Software Engineer",
+    period: "MAR 2022 — MAY 2023",
+    description:
+      "As a Software Engineer at Buymed, I played a key role in developing and maintaining various software solutions. My technical expertise in Flutter, Vue, Node.js, and MongoDB enabled me to contribute significantly to the team. I was involved in the full software development lifecycle, from concept to deployment, ensuring high-quality and efficient software solutions. My work encompassed both front-end and back-end development, demonstrating versatility and a deep understanding of modern web technologies.",
   },
   {
     id: 4,
     icon: "mdi-briefcase-variant",
     color: "deep-orange-lighten-1",
-    title: "TuneLab",
-    position: "Full-stack developer",
-    period: "DEC 2022 — NOWADAYS",
+    title: "Upwork",
+    position: "Professional Full-stack developer",
+    period: "JUL 2023 — PRESENT",
     description:
-      "Developing finTech application from scratch with Laravel 9, Vue.js 3 and Inertia.js",
+      "Skills: Flutter · Vue.js · Node.js · Mobile Application Development · Full-Stack Development · Back-End Web Development · Front-End Development · Dart · Kotlin · GitHub · Continuous Integration and Continuous Delivery (CI/CD) · Swift (Programming Language) · MongoDB",
   },
 ]);
 </script>
