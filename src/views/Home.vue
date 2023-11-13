@@ -64,8 +64,8 @@ import Languages from "../components/Languages.vue";
 const { xs, sm, smAndDown, md, mdAndDown } = useDisplay();
 
 const profile = reactive({
-  fullName: "Ruslan Tsiapko",
-  position: "Full-stack web developer",
+  fullName: "Toai Quoc Ngo",
+  position: "Professional Full Stack Developer",
 });
 </script>
 

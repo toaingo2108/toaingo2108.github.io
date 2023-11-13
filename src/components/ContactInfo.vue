@@ -16,46 +16,47 @@
 </template>
 
 <script setup lang="ts">
+import { ContactInfoData } from "@/types/interfaces";
 import { reactive } from "vue";
 
 defineProps({
   header: String,
 });
 
-const data = reactive([
+const data = reactive<Array<ContactInfoData>>([
   {
     icon: "mdi-cellphone-sound",
     title: "Phone",
-    value: "+ 380 (63) 872 09 90",
-    href: "tel:+380638720990",
-    target: null,
+    value: "+ 84 986744529",
+    href: "tel:+84986744529",
+    target: undefined,
   },
   {
     icon: "mdi-message-text",
-    title: "Telegram",
-    value: "@fordiquez",
-    href: "https://t.me/fordiquez",
+    title: "Upwork",
+    value: "toaiq",
+    href: "https://www.upwork.com/freelancers/toaiq",
     target: "_blank",
   },
   {
     icon: "mdi-gmail",
     title: "Gmail",
-    value: "ruslan.tsiapko@gmail.com",
-    href: "mailto:ruslan.tsiapko@gmail.com",
-    target: null,
+    value: "toaingoquoc00@gmail.com",
+    href: "mailto:toaingoquoc00@gmail.com",
+    target: undefined,
   },
   {
     icon: "mdi-github",
     title: "GitHub",
-    value: "fordiquez",
-    href: "https://github.com/fordiquez",
+    value: "toaingo2108",
+    href: "https://github.com/toaingo2108",
     target: "_blank",
   },
   {
     icon: "mdi-linkedin",
     title: "LinkedIn",
-    value: "ruslan.tsiapko",
-    href: "https://www.linkedin.com/in/ruslan-tsiapko-a41397241/",
+    value: "nqtoai2181",
+    href: "https://www.linkedin.com/in/nqtoai2181/",
     target: "_blank",
   },
 ]);

@@ -1,23 +1,23 @@
-interface BaseTableHeader {
-  // You can add other common properties here
-  [key: string]: any;
+export interface ContactInfoData {
+  icon: string;
+  title: string;
+  value: string;
+  href: string;
+  target: string | undefined;
 }
-
-interface CheckableTableHeader extends BaseTableHeader {
-  checkable: true;
-}
-
-interface BaseTableItem {
-  [key: string]: any;
-}
-interface CheckableTableItem extends BaseTableItem {
-  checked: false;
-}
-
-export interface ToggleOptions {
+export interface SkillOptions {
   id: number;
+  value?: string;
+  name: string;
+  experience?: string;
 }
-export type TableHeader = BaseTableHeader | CheckableTableHeader;
-export type TableItem = BaseTableItem | CheckableTableItem;
-export type TableHeadersArray = TableHeader[];
-export type TableItemsArray = TableItem[];
+export interface SkillItemData {
+  id: number;
+  option: number;
+  name: string;
+  experience: string;
+}
+export interface SkillsData {
+  options: Array<SkillOptions>;
+  items: Array<SkillItemData>;
+}

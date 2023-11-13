@@ -45,17 +45,13 @@
 </template>
 
 <script setup lang="ts">
-import { computed, defineComponent, reactive, ref } from "vue";
+import { computed, reactive, ref } from "vue";
 import { useDisplay } from "vuetify";
-import { ToggleOptions } from "../types/interfaces";
+import { SkillItemData, SkillsData, SkillOptions } from "../types/interfaces";
 
 const { xs, sm, md, lg, xlAndUp } = useDisplay();
 
-defineComponent({
-  name: "Skills",
-});
-
-const skills = reactive({
+const skills = reactive<SkillsData>({
   options: [
     {
       id: 1,
@@ -230,16 +226,19 @@ const skills = reactive({
   ],
 });
 
-const activeOption = ref(null);
+const activeOption = ref<number | undefined>();
 
 const skillItems = computed(() =>
-  activeOption.value != null
-    ? skills.items.filter((item) => item.option === activeOption.value)
+  activeOption.value != undefined
+    ? skills.items.filter(
+        (item: SkillItemData) => item.option === activeOption.value
+      )
     : skills.items
 );
 
-const toggleOption = (option: ToggleOptions) =>
-  (activeOption.value = activeOption.value === option.id ? null : option.id);
+const toggleOption = (option: SkillOptions) =>
+  (activeOption.value =
+    activeOption.value === option.id ? undefined : option.id);
 </script>
 
 <style scoped>
