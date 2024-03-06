@@ -31,3 +31,13 @@ export interface TimelineItem {
   period: string;
   description: string;
 }
+
+export interface WorkItem {
+  id: number;
+  title: string;
+  description: string;
+  android?: string;
+  ios?: string;
+  web?: string;
+  image: string;
+}

@@ -31,11 +31,18 @@
       </v-timeline-item>
     </v-timeline>
   </div>
+  <div class="timeline mt-10 mb-10">
+    <h5 class="text-h5 text-uppercase text-center text-deep-purple-accent-1">
+      Projects
+    </h5>
+    <projects />
+  </div>
 </template>
 
 <script setup lang="ts">
 import { TimelineItem } from "@/types/interfaces";
 import { reactive } from "vue";
+import Projects from "./Projects.vue";
 
 const timelines = reactive<Array<TimelineItem>>([
   {

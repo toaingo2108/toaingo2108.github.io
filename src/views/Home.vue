@@ -59,6 +59,7 @@ import PersonalInfo from "../components/PersonalInfo.vue";
 import ContactInfo from "../components/ContactInfo.vue";
 import Skills from "../components/Skills.vue";
 import Timelines from "../components/Timelines.vue";
+import Projects from "../components/Projects.vue";
 import Languages from "../components/Languages.vue";
 
 const { xs, sm, smAndDown, md, mdAndDown } = useDisplay();
@@ -126,6 +127,7 @@ const profile = reactive({
   .block__element-2 {
     flex: 1 1 auto;
     margin-left: 20px;
+    min-width: 100px;
   }
 }
 @media (max-width: 991px) {
