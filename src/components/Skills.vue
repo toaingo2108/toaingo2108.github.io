@@ -141,13 +141,19 @@ const skills = reactive<SkillsData>({
       id: 8,
       option: 2,
       name: "React.js",
-      experience: "3 years",
+      experience: "5 years",
+    },
+    {
+      id: 28,
+      option: 2,
+      name: "Next.js",
+      experience: "5 years",
     },
     {
       id: 27,
       option: 2,
       name: "HTML5",
-      experience: "3 years",
+      experience: "5 years",
     },
     {
       id: 9,
