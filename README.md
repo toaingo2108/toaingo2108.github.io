@@ -4,7 +4,7 @@
 
 ```
 # yarn
-yarn
+yarn deploy
 
 # npm
 npm install

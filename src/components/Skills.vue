@@ -114,6 +114,12 @@ const skills = reactive<SkillsData>({
       experience: "2 years",
     },
     {
+      id: 5,
+      option: 1,
+      name: "PHP",
+      experience: "4 years",
+    },
+    {
       id: 6,
       option: 2,
       name: "Vue.js",
@@ -126,9 +132,21 @@ const skills = reactive<SkillsData>({
       experience: "4 years",
     },
     {
+      id: 26,
+      option: 2,
+      name: "Angular",
+      experience: "4 years",
+    },
+    {
       id: 8,
       option: 2,
       name: "React.js",
+      experience: "3 years",
+    },
+    {
+      id: 27,
+      option: 2,
+      name: "HTML5",
       experience: "3 years",
     },
     {
@@ -147,6 +165,12 @@ const skills = reactive<SkillsData>({
       id: 11,
       option: 3,
       name: "Flutter/Dart",
+      experience: "5 year",
+    },
+    {
+      id: 25,
+      option: 3,
+      name: "SwiftUI",
       experience: "5 year",
     },
     {

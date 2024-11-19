@@ -55,8 +55,8 @@ const data = reactive<Array<ContactInfoData>>([
   {
     icon: "mdi-linkedin",
     title: "LinkedIn",
-    value: "nqtoai2181",
-    href: "https://www.linkedin.com/in/nqtoai2181/",
+    value: "toại-ngô-104b69325",
+    href: "https://www.linkedin.com/in/to%E1%BA%A1i-ng%C3%B4-104b69325/",
     target: "_blank",
   },
 ]);

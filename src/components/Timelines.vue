@@ -69,7 +69,7 @@ const timelines = reactive<Array<TimelineItem>>([
     icon: "mdi-briefcase-variant",
     color: "deep-orange-lighten-1",
     title: "Upwork",
-    position: "Professional Full-stack developer",
+    position: "Senior Full-stack developer",
     period: "JUL 2023 — PRESENT",
     description:
       "Skills: Flutter · Vue.js · Node.js · Mobile Application Development · Full-Stack Development · Back-End Web Development · Front-End Development · Dart · Kotlin · GitHub · Continuous Integration and Continuous Delivery (CI/CD) · Swift (Programming Language) · MongoDB",

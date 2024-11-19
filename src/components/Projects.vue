@@ -76,6 +76,9 @@ import goPuffImage from "@/assets/gopuff-food-drink-delivery.png";
 import smartShanghaiImage from "@/assets/smartshanghai.png";
 import billeasyImage from "@/assets/billeasy.png";
 import mopImage from "@/assets/mobile-office-pro.png";
+import lovislandImage from "@/assets/lovisland.png";
+import plugYouImage from "@/assets/plugyou.png";
+import zapchatImage from "@/assets/zapchat.png";
 
 const workItems = reactive<Array<WorkItem>>([
   {
@@ -133,6 +136,33 @@ const workItems = reactive<Array<WorkItem>>([
       "Kickstart your Vue 3, Vuetify, and TypeScript admin panel projects with the comprehensive boilerplate and example provided by Billeasy.",
     web: "https://toaingo2108.github.io/Billeasy-vue/",
     image: billeasyImage,
+  },
+  {
+    id: 1,
+    title: "Lovisland",
+    description:
+      "Lovisalnd dating is island\nLovisland is a free dating app dedicated to island people who wants to find love",
+    android:
+      "https://play.google.com/store/apps/details?id=com.lovislandsocial.android",
+    ios: "https://apps.apple.com/in/app/lovisland-hookup-dating-app/id1592279381",
+    image: lovislandImage,
+  },
+  {
+    id: 1,
+    title: "PlugYou",
+    description:
+      "PlugYou is a FREE mobile app designed for you to Securely and Exclusively communicate with other people by invitation ONLY through a PLUG NUMBER so you will never again have to give out your phone number, email or any other contact information to communicate!",
+    web: "https://plugyouapp.com/",
+    ios: "https://apps.apple.com/in/app/plugyou/id1556896316",
+    image: plugYouImage,
+  },
+  {
+    id: 1,
+    title: "Zapchat",
+    description:
+      "Zapchat is a powerful and user-friendly chat app that bridges the gap between different messaging platforms. With Zapchat, you can connect with WhatsApp users effortlessly, making it easier than ever to stay in touch with your friends, family, and colleagues.",
+    ios: "https://apps.apple.com/us/app/tag-zapchat/id6505065184",
+    image: zapchatImage,
   },
 ]);
 

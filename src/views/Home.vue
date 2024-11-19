@@ -66,7 +66,7 @@ const { xs, sm, smAndDown, md, mdAndDown } = useDisplay();
 
 const profile = reactive({
   fullName: "Toai Quoc Ngo",
-  position: "Professional Full Stack Developer",
+  position: "Senior Full Stack Developer",
 });
 </script>
 
